@@ -1,0 +1,10 @@
+.text-links {
+    font-weight: bold;
+    color: #fff;
+    transition: 0.2s ease-in-out;
+}
+
+.text-links:hover {
+    background-color: rgba(16, 185, 129, 0.17);
+    color: var(--emerald);
+}

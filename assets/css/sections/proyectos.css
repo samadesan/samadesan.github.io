@@ -1,0 +1,51 @@
+.bg-card-advanced {
+    background: var(--bg-card) !important; /* Asegura el uso del color del root */
+    border: 1px solid rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(10px);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.bg-card-advanced:hover {
+    transform: translateY(-8px);
+    background: rgba(16, 185, 129, 0.03) !important;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+}
+
+.bg-card-advanced h3 {
+    letter-spacing: -1px;
+    color: var(--text-main);
+}
+
+.btn-repo-link {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--text-muted);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 6px 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.2s ease;
+}
+
+.btn-repo-link:hover:not(.disabled) {
+    background: #fff;
+    color: #000 !important;
+    border-color: #fff;
+}
+
+.btn-visit-active {
+    border-color: var(--emerald);
+    color: var(--emerald);
+}
+
+.btn-visit-active:hover {
+    background: var(--emerald) !important;
+    border-color: var(--emerald) !important;
+}
+
+@media (max-width: 768px) {
+    .container-avanzado {
+        width: 95%;
+    }
+}

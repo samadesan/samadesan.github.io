@@ -1,0 +1,46 @@
+/* Importación de JetBrains Mono */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;500;700&display=swap');
+
+:root {
+    /* COLORES PRINCIPALES */
+    --bg-dark: #020617;
+    --emerald: #10b981;
+
+    /* COLORES SECUNDARIOS (Acentos mínimos) */
+    --bg-card: #0a0a0a;
+    --purple: #8b5cf6;
+    --blue-deep: #1e3a8a;
+    --danger-red: #991b1b;
+
+    --radial-gradient-bg:
+            radial-gradient(circle at 10% 20%, rgba(30, 58, 138, 0.2), transparent),
+            radial-gradient(circle at 90% 80%, rgba(139, 92, 246, 0.15), transparent),
+            radial-gradient(circle at 50% 50%, rgba(16, 185, 129, 0.05), transparent); z-index: -1
+    ;
+
+    /* TEXTO Y GRISES */
+    --text-main: #ffffff;
+    --text-muted: #a1a1aa;
+    --gray-dark: #222222;
+
+    /* TIPOGRAFÍA */
+    --font-main: 'JetBrains Mono', sans-serif;
+    --font-secondary: 'Space Grotesk', sans-serif;
+}
+
+body {
+    background-color: var(--bg-dark);
+    color: var(--text-main);
+    font-family: var(--font-main), serif;
+    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding-top: 80px;
+}
+
+/* Restricción de tamaño estándar 95% */
+.container-avanzado {
+    width: 95%;
+    max-width: 95%;
+    margin: 0 auto;
+}

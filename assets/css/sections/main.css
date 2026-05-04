@@ -1,0 +1,17 @@
+/* Espaciado para secciones */
+section {
+    padding: 100px 0;
+}
+
+/* --- Tamaño a pantalla completa del header  --- */
+.hero-section {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 250px;
+}

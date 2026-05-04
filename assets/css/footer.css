@@ -1,0 +1,63 @@
+/* Estilos específicos para el Footer */
+.nav-link-footer {
+    font-family: var(--font-main), sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: var(--text-muted) !important;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.nav-link-footer:hover {
+    color: var(--bg-dark) !important;
+    background-color: var(--text-main); /* Inversión de color */
+}
+
+footer .navbar-brand:hover {
+    transform: scale(1.1);
+    color: var(--emerald) !important;
+    transition: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Ajuste de borde superior con los colores secundarios */
+footer.border-top {
+    border-top: 1px solid #444444 !important;
+}
+
+/* DISEÑO RESPONSIVE FOOTER */
+@media (max-width: 767px) {
+    .container-avanzado {
+        width: 95%;
+    }
+
+    /* Apilado vertical */
+    footer .d-flex {
+        flex-direction: column !important;
+        gap: 2rem;
+    }
+
+    /* Logo */
+    footer .navbar-brand {
+        font-size: 1.2rem;
+        order: -1;
+    }
+
+    /* Navegación vertical con bordes para separar ítems */
+    .nav-link-footer {
+        padding: 0.75rem 0;
+        width: 100%;
+        text-align: center;
+        border-bottom: 1px solid #444444;
+    }
+
+    .nav-link-footer:last-child {
+        border-bottom: none;
+    }
+
+    .nav-link-footer:active {
+        color: var(--emerald) !important;
+        background: transparent;
+    }
+}

@@ -1,0 +1,147 @@
+/* Nodos de contacto */
+.contact-node {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: var(--bg-card);
+    transition: 0.3s ease;
+}
+
+.contact-node:hover {
+    border-color: var(--emerald);
+    transform: translateX(5px);
+}
+
+.node-icon {
+    font-size: 1.5rem;
+    color: var(--emerald);
+}
+
+.node-label {
+    display: block;
+    font-size: 0.6rem;
+    color: var(--purple);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.node-link, .node-text {
+    text-decoration: none;
+    color: var(--text-main);
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+/* Formulario Terminal */
+.terminal-form-container {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.terminal-header {
+    background: #1a1a1a;
+    height: 35px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.terminal-dots span {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-left: 5px;
+    background: #444;
+}
+
+/* Inputs Técnicos */
+.form-label-tech {
+    font-size: 0.65rem;
+    color: var(--emerald);
+    font-family: var(--font-main);
+    font-weight: 700;
+}
+
+.form-control-tech {
+    background: transparent !important;
+    border: none;
+    border-bottom: 1px solid #333;
+    border-radius: 0;
+    color: white !important;
+    font-family: var(--font-main);
+    padding: 10px 0;
+}
+
+.form-control-tech:focus {
+    box-shadow: none;
+    border-color: var(--purple);
+}
+
+.btn-send-tech {
+    width: 100%;
+    padding: 12px;
+    background: transparent;
+    border: 1px solid var(--emerald);
+    color: var(--emerald);
+    font-weight: 700;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+    transition: 0.3s ease;
+}
+
+.btn-send-tech:hover {
+    background: var(--emerald);
+    color: #000;
+}
+
+/* Contenedor principal del formulario */
+.bg-card-advanced {
+    background: var(--bg-card) !important; /* Azul oscuro profundo de tu root */
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Estilo de los campos de entrada */
+.custom-input {
+    background-color: rgba(255, 255, 255, 0.03) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+    padding: 12px 15px;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+    background-color: rgba(255, 255, 255, 0.07) !important;
+    border-color: var(--emerald) !important; /* Resalte en verde esmeralda[cite: 7] */
+    box-shadow: none;
+    outline: none;
+}
+
+.custom-input::placeholder {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+/* Botón de envío personalizado */
+.btn-emerald-custom {
+    background-color: var(--emerald);
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 1px;
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-emerald-custom:hover {
+    background-color: #0ea171;
+    transform: translateY(-2px);
+    color: #000;
+}
+
+/* Ajuste para etiquetas */
+.form-label {
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    display: block;
+}

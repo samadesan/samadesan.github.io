@@ -1,0 +1,47 @@
+.navbar {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding: 1.4rem 0;
+    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Animación al bajar */
+.navbar.scrolled {
+    padding: 0.8rem 0;
+    background: rgba(2, 6, 23, 0.9) !important;
+    backdrop-filter: blur(12px);
+    border-bottom: 2px solid var(--emerald);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+    transition: 0.4s;
+}
+
+.navbar-brand:hover {
+    font-size: 20px;
+    color: var(--emerald);
+}
+
+.navbar.scrolled .navbar-brand {
+    transform: scale(1.1);
+    color: var(--emerald) !important;
+}
+
+.nav-item {
+    margin: 0 0.6rem;
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    background: var(--text-main);
+    color: var(--bg-dark) !important;
+}

@@ -1,0 +1,11 @@
+.index-container {
+    background: var(--radial-gradient-bg);
+}
+
+.secondary-font-family {
+    font-family: var(--font-secondary), serif;
+}
+
+.text-emerald {
+    color: var(--emerald) !important;
+}

@@ -1,0 +1,18 @@
+.hero-xp {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-xp h1 {
+    font-size: 200px;
+}
+
+.subtitle-xp {
+    font-size: 11px;
+    text-transform: uppercase;
+    font-style: italic;
+    color: #222222;
+}

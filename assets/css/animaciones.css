@@ -1,0 +1,21 @@
+.anim-izquierda-derecha {
+    transition: 1s ease-in-out;
+    animation: anim-izquierda-derecha ease;
+    animation-duration: 500ms;
+}
+
+.anim-derecha-izquierda {
+    transition: 1s ease-in-out;
+    animation: anim-derecha-izquierda ease;
+    animation-duration: 500ms;
+}
+
+@keyframes anim-izquierda-derecha {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes anim-derecha-izquierda {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
