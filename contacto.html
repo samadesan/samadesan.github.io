@@ -1,174 +1,187 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Samuel Aded | Portafolio</title>
+        <title>Samuel Aded | Portafolio</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <!-- Librerías de estilos -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <link rel="stylesheet" href="assets/css/root.css">
-    <link rel="stylesheet" href="assets/css/main-content.css">
-    <link rel="stylesheet" href="assets/css/navbar.css">
-    <link rel="stylesheet" href="assets/css/footer.css">
+        <!-- Mis estilos -->
+        <link rel="stylesheet" href="assets/css/root.css">
+        <link rel="stylesheet" href="assets/css/main-content.css">
+        <link rel="stylesheet" href="assets/css/navbar.css">
+        <link rel="stylesheet" href="assets/css/footer.css">
 
-    <link rel="stylesheet" href="assets/css/sections/main.css">
-    <link rel="stylesheet" href="assets/css/sections/bio.css">
-    <link rel="stylesheet" href="assets/css/sections/experiencia.css">
-    <link rel="stylesheet" href="assets/css/sections/proyectos.css">
-    <link rel="stylesheet" href="assets/css/sections/datos-empleo.css">
-    <link rel="stylesheet" href="assets/css/sections/contacto.css">
-</head>
-<body>
+        <link rel="stylesheet" href="assets/css/sections/main.css">
+        <link rel="stylesheet" href="assets/css/sections/contacto.css">
+    </head>
+    <body>
 
-<!-- Navegación -->
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-    <div class="container-avanzado d-flex justify-content-between align-items-center">
-        <a class="navbar-brand" href="index.html" id="nav-logo">
-            &lt;Samuel Aded/&gt;
-        </a>
+    <!-- Navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container-avanzado d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="index.html" id="nav-logo">
+                &lt;Samuel Aded/&gt;
+            </a>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto align-items-center">
-                <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
-                <li class="nav-item"><a class="nav-link" href="bio.html">Quién soy</a></li>
-                <li class="nav-item"><a class="nav-link" href="experiencia.html">Experiencia</a></li>
-                <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
-                <li class="nav-item"><a class="nav-link" href="datos-empleo.html">Empleo</a></li>
-                <li class="nav-item">
-                    <a class="nav-link btn-interact" href="contacto.html">Contacto</a>
-                </li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bio.html">Quién soy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="experiencia.html">Experiencia</a></li>
+                    <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="datos-empleo.html">Empleo</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link btn-interact" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contenido Principal -->
+    <main class="container-avanzado my-5 secondary-font-family">
+        <header class="hero-section mb-5">
+            <h1 class="fw-bold" style="letter-spacing: -3px; font-family: var(--font-secondary), sans-serif;">
+                CON<span class="text-emerald">TACTO</span>
+            </h1>
+        </header>
+        <div style="height: 2px; width: 60px; background: var(--emerald);"></div>
+
+        <section id="contacto" class="py-4">
+            <div class="row g-5">
+                <!-- INFO DE CONTACTO (NODOS) -->
+                <div class="col-lg-5">
+                    <h3 class="section-label mb-4">CONTACTO DIRECTO</h3>
+
+                    <div class="contact-node mb-4">
+                        <div class="node-icon"><i class="bi bi-envelope-at"></i></div>
+                        <div class="node-content">
+                            <span class="node-label">MI CORREO DE TRABAJO</span>
+                            <a href="mailto:adedsantafesamuel@outlook.es" class="node-link">adedsantafesamuel@outlook.es</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-node mb-4">
+                        <div class="node-icon"><i class="bi bi-linkedin"></i></div>
+                        <div class="node-content">
+                            <span class="node-label">MI LINKEDIN</span>
+                            <a href="https://linkedin.com/in/samuel-aded-santafé" class="node-link">linkedin.com/in/samuel-aded-santafé</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-node mb-4">
+                        <div class="node-icon"><i class="bi bi-geo-alt"></i></div>
+                        <div class="node-content">
+                            <span class="node-label">DÓNDE ME SITÚO</span>
+                            <span class="node-text">Castellón de la Plana, Castellón, Comunitat Valenciana,  España</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FORMULARIO ESTILO TERMINAL -->
+                <div class="col-lg-7">
+                    <div class="card bg-card-advanced p-4 p-md-5 border-0">
+                        <form action="mailto:adedsantafesamuel@outlook.es" id="contact-form" method="post" enctype="text/plain">
+                            <div class="row">
+                                <div class="col-md-6 mb-4">
+                                    <label for="nombre" class="form-label text-white small fw-bold text-uppercase">
+                                        Nombre completo <span class="text-emerald">*</span>
+                                    </label>
+                                    <input type="text" id="nombre" name="nombre" class="form-control custom-input" placeholder="Tu nombre y apellidos">
+                                    <p class="error-msj" style="display: none;"></p>
+                                </div>
+                                <div class="col-md-6 mb-4">
+                                    <label for="email" class="form-label text-white small fw-bold text-uppercase">
+                                        Correo electrónico <span class="text-emerald">*</span>
+                                    </label>
+                                    <input type="email" id="email" name="email" class="form-control custom-input" placeholder="nombre-correo@correo.com">
+                                    <p class="error-msj" style="display: none;"></p>
+                                </div>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="asunto" class="form-label text-white small fw-bold text-uppercase">Asunto</label>
+                                <input type="text" id="asunto" name="asunto" class="form-control custom-input" placeholder="¿En qué puedo ayudarte?">
+                                <p class="error-msj" style="display: none;"></p>
+                            </div>
+
+                            <div class="mb-4">
+                                <label for="mensaje" class="form-label text-white small fw-bold text-uppercase">Mensaje</label>
+                                <textarea id="mensaje" name="mensaje" rows="6" class="form-control custom-input" placeholder="Escribe aquí tu mensaje..."></textarea>
+                                <p class="error-msj" style="display: none;"></p>
+                            </div>
+
+                            <div class="mb-4">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" id="aceptar-politica">
+                                    <label class="form-check-label text-white small" for="aceptar-politica">
+                                        Acepto la política de privacidad del servicio
+                                    </label>
+                                    <p class="error-msj" style="display: none;"></p>
+                                </div>
+                            </div>
+
+                            <div class="text-end">
+                                <button type="submit" class="btn btn-emerald-custom px-5 py-3 fw-bold text-uppercase" id="envio-formulario">
+                                    Enviar mensaje
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container-avanzado py-5 my-5 border-top border-secondary">
+        <div class="d-flex flex-wrap justify-content-between align-items-center">
+            <div class="col-md-4 d-flex align-items-center">
+                <span class="text-white fw-light" style="font-size: 0.8rem; letter-spacing: 1px;">
+                    © 2026 — SAMUEL ADED SANTAFÉ
+                </span>
+            </div>
+
+            <a href="index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-decoration-none">
+                <span class="navbar-brand fw-bold text-uppercase" style="letter-spacing: -2px; font-size: 1.5rem;">
+                    <span class="text-emerald">&lt;</span>Samuel Aded<span class="text-emerald">/&gt;</span>
+                </span>
+            </a>
+
+            <ul class="nav col-md-4 justify-content-end">
+                <li class="nav-item"><a href="index.html" class="nav-link-footer">INICIO</a></li>
+                <li class="nav-item"><a href="bio.html" class="nav-link-footer">BIO</a></li>
+                <li class="nav-item"><a href="experiencia.html" class="nav-link-footer">EXP</a></li>
+                <li class="nav-item"><a href="proyectos.html" class="nav-link-footer">PROY</a></li>
+                <li class="nav-item"><a href="contacto.html" class="nav-link-footer text-emerald">CONTACTO</a></li>
             </ul>
         </div>
-    </div>
-</nav>
 
-<!-- Contenido Principal -->
-<main class="container-avanzado my-5 secondary-font-family">
-    <header class="hero-section mb-5">
-        <h1 class="fw-bold" style="letter-spacing: -3px; font-family: var(--font-secondary), sans-serif;">
-            CON<span class="text-emerald">TACTO</span>
-        </h1>
-    </header>
-    <div style="height: 2px; width: 60px; background: var(--emerald);"></div>
-
-    <section id="contacto" class="py-4">
-        <div class="row g-5">
-            <!-- INFO DE CONTACTO (NODOS) -->
-            <div class="col-lg-5">
-                <h3 class="section-label mb-4">CONTACTO DIRECTO</h3>
-
-                <div class="contact-node mb-4">
-                    <div class="node-icon"><i class="bi bi-envelope-at"></i></div>
-                    <div class="node-content">
-                        <span class="node-label">EMAIL_SERVICE</span>
-                        <a href="mailto:adedsantafesamuel@outlook.es" class="node-link">adedsantafesamuel@outlook.es</a>
-                    </div>
-                </div>
-
-                <div class="contact-node mb-4">
-                    <div class="node-icon"><i class="bi bi-linkedin"></i></div>
-                    <div class="node-content">
-                        <span class="node-label">PROFESSIONAL_NETWORK</span>
-                        <a href="https://linkedin.com/in/samuel-aded-santafé" class="node-link">linkedin.com/in/samuel-aded-santafé</a>
-                    </div>
-                </div>
-
-                <div class="contact-node mb-4">
-                    <div class="node-icon"><i class="bi bi-geo-alt"></i></div>
-                    <div class="node-content">
-                        <span class="node-label">LOCATION_IP</span>
-                        <span class="node-text">Castellón, España</span>
-                    </div>
-                </div>
-            </div>
-
-            <!-- FORMULARIO ESTILO TERMINAL -->
-            <div class="col-lg-7">
-                <div class="card bg-card-advanced p-4 p-md-5 border-0">
-                    <form>
-                        <div class="row">
-                            <div class="col-md-6 mb-4">
-                                <label for="nombre" class="form-label text-white small fw-bold text-uppercase">Nombre completo</label>
-                                <input type="text" id="nombre" class="form-control custom-input" placeholder="Tu nombre y apellidos">
-                            </div>
-                            <div class="col-md-6 mb-4">
-                                <label for="email" class="form-label text-white small fw-bold text-uppercase">Correo electrónico</label>
-                                <input type="email" id="email" class="form-control custom-input" placeholder="nombre@correo.com">
-                            </div>
-                        </div>
-
-                        <div class="mb-4">
-                            <label for="asunto" class="form-label text-white small fw-bold text-uppercase">Asunto</label>
-                            <input type="text" id="asunto" class="form-control custom-input" placeholder="¿En qué puedo ayudarte?">
-                        </div>
-
-                        <div class="mb-4">
-                            <label for="mensaje" class="form-label text-white small fw-bold text-uppercase">Mensaje</label>
-                            <textarea id="mensaje" rows="6" class="form-control custom-input" placeholder="Escribe aquí tu mensaje detallado..."></textarea>
-                        </div>
-
-                        <div class="text-end">
-                            <button type="submit" class="btn btn-emerald-custom px-5 py-3 fw-bold text-uppercase">
-                                Enviar mensaje
-                            </button>
-                        </div>
-                    </form>
-                </div>
-            </div>
+        <div class="mt-4 d-flex justify-content-between" style="opacity: 0.3;">
+            <div style="height: 1px; width: 30%; background: var(--purple);"></div>
+            <div style="height: 1px; width: 10%; background: var(--danger-red);"></div>
+            <div style="height: 1px; width: 30%; background: var(--emerald);"></div>
         </div>
-    </section>
-</main>
+    </footer>
 
-<!-- Footer -->
-<footer class="container-avanzado py-5 my-5 border-top border-secondary">
-    <div class="d-flex flex-wrap justify-content-between align-items-center">
-        <div class="col-md-4 d-flex align-items-center">
-            <span class="text-white fw-light" style="font-size: 0.8rem; letter-spacing: 1px;">
-                © 2026 — SAMUEL ADED SANTAFÉ
-            </span>
-        </div>
+    <!-- SCRIPTS -->
+    <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/contacto.js"></script>
 
-        <a href="index.html" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto text-decoration-none">
-            <span class="navbar-brand fw-bold text-uppercase" style="letter-spacing: -2px; font-size: 1.5rem;">
-                <span class="text-emerald">&lt;</span>Samuel Aded<span class="text-emerald">/&gt;</span>
-            </span>
-        </a>
+    <!-- Librerías -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 
-        <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="index.html" class="nav-link-footer">INICIO</a></li>
-            <li class="nav-item"><a href="bio.html" class="nav-link-footer">BIO</a></li>
-            <li class="nav-item"><a href="experiencia.html" class="nav-link-footer">EXP</a></li>
-            <li class="nav-item"><a href="proyectos.html" class="nav-link-footer">PROY</a></li>
-            <li class="nav-item"><a href="contacto.html" class="nav-link-footer text-emerald">CONTACTO</a></li>
-        </ul>
-    </div>
-
-    <div class="mt-4 d-flex justify-content-between" style="opacity: 0.3;">
-        <div style="height: 1px; width: 30%; background: var(--purple);"></div>
-        <div style="height: 1px; width: 10%; background: var(--danger-red);"></div>
-        <div style="height: 1px; width: 30%; background: var(--emerald);"></div>
-    </div>
-</footer>
-
-<!-- SCRIPTS -->
-<!-- Librería Bootstrap v5.3.2 -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- Scripts JS -->
-<script src="assets/scripts/js/main.js"></script>
-
-<!-- Scripts jQuery -->
-<script src="assets/scripts/jquery/main.js"></script>
-
-<!-- Scripts AJAX -->
-<script src="assets/scripts/ajax/main.js"></script>
-</body>
+    </body>
 </html>
